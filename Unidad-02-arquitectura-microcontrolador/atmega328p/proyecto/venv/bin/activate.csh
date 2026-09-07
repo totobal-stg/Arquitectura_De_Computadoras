@@ -9,7 +9,7 @@ alias deactivate 'test $?_OLD_VIRTUAL_PATH != 0 && setenv PATH "$_OLD_VIRTUAL_PA
 # Unset irrelevant variables.
 deactivate nondestructive
 
-setenv VIRTUAL_ENV /home/adrian/ArquitecturaComputadorasISC/unidad-02-arquitectura-microcontrolador/atmega328p/proyecto/venv
+setenv VIRTUAL_ENV /home/adrian/Arquitectura_De_Computadoras/Unidad-02-arquitectura-microcontrolador/atmega328p/proyecto/venv
 
 set _OLD_VIRTUAL_PATH="$PATH"
 setenv PATH "$VIRTUAL_ENV/"bin":$PATH"

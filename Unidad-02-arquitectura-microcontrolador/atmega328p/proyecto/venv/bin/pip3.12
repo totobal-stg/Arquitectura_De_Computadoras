@@ -1,4 +1,4 @@
-#!/home/adrian/ArquitecturaComputadorasISC/unidad-02-arquitectura-microcontrolador/atmega328p/proyecto/venv/bin/python3
+#!/home/adrian/Arquitectura_De_Computadoras/Unidad-02-arquitectura-microcontrolador/atmega328p/proyecto/venv/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys
