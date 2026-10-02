@@ -8,6 +8,8 @@
 .global main
 
 main:
+    ; CONFIGURACION
+    
     sbi _SFR_IO_ADDR(DDRB), LED_PIN
     cbi _SFR_IO_ADDR(PORTB), LED_PIN
 
