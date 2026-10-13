@@ -40,7 +40,8 @@ debug: $(SRC)
 # Regla para quemar el programa en el microcontrolador usando USBasp
 flash: release
 	@echo "Cargando firmware mediante USBasp..."
-	$(AVRDUDE) -c $(PROGRAMMER) -p $(MCU) -U flash:w:release/main.hex:i
+	avrdude -c usbasp -p atmega328p -B 125kHz -U flash:w:release/main.hex:i
+
 
 clean:
 	@echo "Limpiando archivos generados..."
